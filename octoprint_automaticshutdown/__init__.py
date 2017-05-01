@@ -168,7 +168,7 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 
         def get_settings_defaults(self):
                 return dict(
-                        abortTimeout = 30,
+                        abortTimeout = 10,
                         rememberCheckBox = False,
                         lastCheckBoxValue = False
                 )

@@ -2,9 +2,11 @@
 
 This OctoPrint plugin enables the system to be automatically shut down after a print is finished.
 
-The user can enable automatic shutdown for each print by using a checkbox in the sidebar.
+The user can enable automatic shutdown for each print by using a checkbox in the sidebar.  Additionally, the user can 
+trigger a shutdown by using the "shutdown now" button.  This is useful for non-admin users, who do not have access to
+the system menu.
 
-![Sidebar](http://i.imgur.com/e79FxXv.png)
+![Sidebar](/docs/screenshot.png?raw=true)
 
 ## Setup
 
