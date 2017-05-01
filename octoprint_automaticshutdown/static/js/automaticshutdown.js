@@ -86,6 +86,18 @@ $(function() {
             }
         }
 
+       self.shutdownNow = function() {
+            $.ajax({
+                url: API_BASEURL + "plugin/automaticshutdown",
+                type: "POST",
+                dataType: "json",
+                data: JSON.stringify({
+                    command: "shutdown"
+                }),
+                contentType: "application/json; charset=UTF-8"
+            })
+        }
+
         self.abortShutdown = function(abortShutdownValue) {
             self.timeoutPopup.remove();
             self.timeoutPopup = undefined;
