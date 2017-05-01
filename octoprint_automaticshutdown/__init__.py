@@ -51,7 +51,8 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 	def get_api_commands(self):
 		return dict(enable=[],
 			disable=[],
-			abort=[])
+			abort=[],
+			shutdown=[])
 
 	def on_api_command(self, command, data):
                 if not user_permission.can():
@@ -187,12 +188,12 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 
                         # version check: github repository
                         type="github_release",
-                        user="OctoPrint",
+                        user="DeltaMaker",
                         repo="OctoPrint-AutomaticShutdown",
                         current=self._plugin_version,
 
                         # update method: pip w/ dependency links
-                        pip="https://github.com/OctoPrint/OctoPrint-AutomaticShutdown/archive/{target_version}.zip"
+                        pip="https://github.com/DeltaMaker/OctoPrint-AutomaticShutdown/archive/{target_version}.zip"
                 )
         )
 
