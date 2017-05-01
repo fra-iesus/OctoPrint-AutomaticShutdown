@@ -70,9 +70,9 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
                                 self._abort_timer = None
                         self._timeout_value = None
                         self._logger.info("Shutdown aborted.")
-                elif command == "shutdown":
-                    self._logger.info("Shutdown Now.")
-                    self._timer_start()
+                 elif command == "shutdown":
+                        self._timer_start()
+                        self._logger.info("Shutdown Now.")
 
                 if command == "enable" or command == "disable":
                         self.lastCheckBoxValue = self._automatic_shutdown_enabled
