@@ -3,4 +3,7 @@
 		<input type="checkbox" data-bind="enable: loginState.isUser(), checked: automaticShutdownEnabled">
 		{{ _('Shutdown after print finishes') }}
 	</label>
+	<button class="btn" id="shutdown_now" data-bind="enable: loginState.isUser(), click: shutdownNow">
+		{{ _('Shutdown Now') }}	
+	</button>
 </div>
