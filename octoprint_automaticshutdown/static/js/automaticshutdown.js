@@ -17,7 +17,7 @@ $(function() {
             confirm: {
                 confirm: true,
                 buttons: [{
-                    text: 'Abort Shutdown',
+                    text: 'Cancel Shutdown',
                     addClass: 'btn-block btn-danger',
                     promptTrigger: true,
                     click: function(notice, value){
