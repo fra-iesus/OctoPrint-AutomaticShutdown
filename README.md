@@ -20,3 +20,6 @@ or manually using this URL:
 In order for the plugin work, the systemShutdownCommand must be set within the settings.
 
 This setting can be edited in OctoPrint "Settings/Server/Shutdown system".
+
+## TODO:
+- wait for the target extruder temperature
