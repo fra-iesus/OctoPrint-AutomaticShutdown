@@ -10,10 +10,10 @@ the system menu.
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
+Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager) (not valid anymore: original plugin is abandoned and not compatible with Python 3)
 or manually using this URL:
 
-    https://github.com/DeltaMaker/OctoPrint-AutomaticShutdown/archive/master.zip
+    https://github.com/fra-iesus/OctoPrint-AutomaticShutdown/archive/master.zip
 
 ## Configuration
 
